@@ -2,13 +2,14 @@
 float a, b, hasil;
 
 int main() {
-    printf("Masukkan Nilai A: ");
+    printf("Masukkan Nilai Pertama : ");
     scanf("%f", &a);
-    printf("Masukkan Nilai B: ");
+    printf("Masukkan Nilai Kedua : ");
     scanf("%f", &b);
 
     hasil = a + b;
-    printf("Hasil Penjumlahan: %.2f\n", hasil);
+    printf("Hasil dari penjumlahan nilai pertama \"%g\" dan nilai kedua \"%g\" adalah \"%.2f\"\n", 
+           a, b, hasil);
 
     return 0;
 }
