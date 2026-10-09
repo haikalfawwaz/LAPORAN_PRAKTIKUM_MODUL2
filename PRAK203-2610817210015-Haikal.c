@@ -9,4 +9,5 @@ hasil = (a - b) * i / j - (x + y);
 
     printf(" %.3f\n", hasil);
 
+    return 0;
 }
