@@ -10,6 +10,5 @@ int main() {
     hasil = a + b;
     printf("Hasil Penjumlahan: %.2f\n", hasil);
 
-
     return 0;
 }
